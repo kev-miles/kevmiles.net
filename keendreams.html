@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+	<head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Kevin Miles, Game Developer</title>
+		<link rel="icon" href="Assets/asterash_ico.jpg">
+
+		<!-- CSS -->
+		
+		<link rel="stylesheet" type="text/css" href="/CSS/main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="/CSS/modifiers.css">
+
+		<!-- FONTS -->
+
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+
+		<style>
+			.dropdown-item.active, .dropdown-item:active {
+			  color: orange;
+			  text-decoration: none;
+			  background-color: #007bff;
+			}
+
+			.dropdown-item:hover, .dropdown-item:focus {
+			  color: orange;
+			  text-decoration: none;
+			  background-color: #f8f9fa;
+			}
+
+			.jumbotron
+			{
+				background-color: #999;
+				padding: 1%;
+				color: white;
+			}
+			p
+			{
+				margin: 0%;
+			}
+		</style>
+
+	</head>
+		<header class="navbar-inverse" role="banner">		
+			<div class="container">		
+				<nav class="navbar-expand-lg navbar navbar-dark rounded" style="background-color: #222";>
+
+						<a class="navbar-brand">Kevin Miles
+					  		<p class="description">Videogame Developer</p>
+					  	</a>
+					  	<a class="custom-navbar-space-md d-none d-sm-block"></a>			  	
+					  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  	</button>
+
+						 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						    <ul class="navbar-nav mr-auto">
+						      	<li class="nav-item active">
+						        	<a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+						      	</li>
+						      	<li class="nav-item">
+						        	<a class="nav-link" href="/about.html">About</a>
+						      	</li>
+						      	<li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          Projects
+						        </a>
+						 			<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+						    		<a class="dropdown-item" href="elementspace.html">Element Space</a>
+						    		<a class="dropdown-item" href="">Keen Dreams</a>
+						    		<div class="dropdown-divider"></div>
+						    		<a class="dropdown-item" href="/mobile&web.html">Mobile & Web</a>
+						 			<div class="dropdown-divider"></div>
+						    		<a class="dropdown-item" href="/jamgames.html">Jam Games</a>
+						 			</div>
+						      	</li>
+						    	<li class="nav-item">
+						    	    <a class="nav-link" href=Serv/contact.php>Contact</a>
+						    	</li>
+						    </ul>
+						</div>
+				</nav>				
+
+			</div>
+
+		</header>
+
+		<!-- HEADER END -->
+		
+		<!-- BODY -->
+
+		<body class="darkBG view">
+
+		<div class = "container">					
+			<div class = "jumbotron-secondary top-space shadow">
+
+				<h4 class="text-center" style="color:white">Keen Dreams</h4>
+
+				<!-- DESKTOP -->
+
+				<div class="d-none d-md-block">
+					<div class="row justify-content-center">
+						<iframe class="text-center jamb-o-tron" width="660" height="415" src="https://www.youtube.com/embed/u4qkwwQ70lo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+				
+				<div class="row justify-content-center">
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center d-none d-md-block">
+						<p class="text-justify">I've always been a fan of the Id games. They were some of the first computer games I ever owned, and played them non-stop since the first time I came across them on a shareware compilation.</p>
+
+						<p class="text-justify">All the way from the first Keen to the recent Doom reboot, I kept being a fan. However, there's something special about those early days. Romero's
+						hair, the Ferraris, the deathmatch culture and even the head-to-head they had with Epic towards the turn of the millennium.</p>
+
+						<p class="text-justify">I got my hands on the Masters of Doom book by the time I was a teenager, and it blew my mind to know how it was for those guys to build one of the -at
+						that time- largest names in gaming. It inspired me to a level I can hardly describe, and continues to do so as I go back to it from time to time.</p>
+
+						<p class="text-justify">So imagine my surprise when I was hired to make a port of "an old DOS game", and Commander Keen suddenly appeared on the screen.</p>
+
+						<p class="text-justify">It was quite a challenging task to revive the old code of the game, done in C by Carmack, Romero and Jason Blochowiak. Nonetheless I had the help
+						of Ariel Manzur, a veteran coder who was involved in the development of the Godot Game Engine. Together, we got the game running and even included remastered sounds and an original soundtrack composed by <a href="https://twitter.com/FORGINGSOUNDS" target="_blank">Christian Perucci</a>.</p>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center d-none d-md-block">
+						<p class="text-justify">Aside from the coding in C, we used C++ modules in Godot as a bridge
+						between the original codebase and the engine itself. That way we could alter the original logic, and have it reference (and be affected by) the scripts in the Godot scene where the game runs.</p>
+
+						<p class="text-justify">To alter the screens we used the same tools Id Software used long ago. I'll be forever grateful to the modders that kept that stuff alive for us to find. The art itself was done in Deluxe Paint, since the game had troubles reading the files from more modern aplications like Photoshop, even when converted to the same bit depth and saved as the appropriate file type.</p>
+
+						<p class="text-justify">It was kind of magical for me to be able to play around with the game Id made long before they became big news. More so to do it using some of the exact same tools. At the end of the day, I'm thankful that I had the opportunity, and I'm very happy to say that the game plays great on the Nintendo Switch&#8482.</p>
+
+						<p class="text-justify">It really surprised me how some games are better on a given system, and while Keen may not be as good as it was on PC when it came out, it felt great on the console. It's clear that the design philosophy behind Keen, that of making a console-style game, proved timeless.</p>
+
+						<p class="text-justify"></p>
+					</div>
+				</div>
+
+				<!-- MOBILE -->
+
+					<div class="row justify-content-center jumbotron-secondary top-space d-md-none">
+						<iframe class="text-center jamb-o-tron" width="560" height="315" src="https://www.youtube.com/embed/u4qkwwQ70lo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center d-md-none">
+						<p class="text-justify">I've always been a fan of the Id games. They were some of the first computer games I ever owned, and played them non-stop since the first time I came across them on a shareware compilation.</p> 
+
+						<p class="text-justify">So imagine my surprise when I was hired to make a port of "an old DOS game", and Commander Keen suddenly appeared on the screen.</p>
+
+						<p class="text-justify">It was quite a challenging task to revive the old code of the game, done in C by Carmack, Romero and Jason Blochowiak. Nonetheless I had the help
+						of Ariel Manzur, a veteran coder who was involved in the development of the Godot Game Engine. Together, we got the game running and even included remastered sounds and an original soundtrack composed by <a href="https://twitter.com/FORGINGSOUNDS" target="_blank">Christian Perucci</a>.</p>
+
+						<p class="text-justify">Aside from the coding in C, we used C++ modules in Godot as a bridge
+						between the original codebase and the engine itself. That way we could alter the original logic, and have it reference (and be affected by) the scripts in the Godot scene where the game runs.</p>
+
+						<p class="text-justify">To alter the screens we used the same tools Id Software used long ago. I'll be forever grateful to the modders that kept that stuff alive for us to find. The art itself was done in Deluxe Paint, since the game had troubles reading the files from more modern aplications like Photoshop, even when converted to the same bit depth and saved as the appropriate file type.</p>
+						<p class="text-justify"></p> 
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center d-md-none">
+						<p class="text-justify">It was kind of magical for me to be able to play around with the game Id made long before they became big news. More so to do it using some of the exact same tools. At the end of the day, I'm thankful that I had the opportunity, and I'm very happy to say that the game plays great on the Nintendo Switch&#8482.</p>
+
+						<p class="text-justify">It really surprised me how some games are better on a given system, and while Keen may not be as good as it was on PC when it came out, it felt great on the console. It's clear that the design philosophy behind Keen, that of making a console-style game, proved timeless.</p>
+
+						<p class="text-justify"></p>
+
+						<p class="text-justify"></p>
+
+						<p class="text-justify"></p>
+					</div>			
+				
+				<div class="row justify-content-center jumbotron-secondary">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center jamb-o-tron-nborder rounded">				
+					</div>	
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center jamb-o-tron rounded">
+						<h5 class="text-center">Nintendo Shop</h5>
+						<img src="Assets/Games/nintendostoreicon.jpg" class="img-responsive rounded jumbotron" alt="Steam" style="width: 75%">
+						<p class="text-center">Get the game here!</p>
+						<a href="https://www.nintendo.com/games/detail/commander-keen-in-keen-dreams-switch"><button class="btn btn-outline-warning top-space" type="button">GET IT!</button></a>
+					</div>									
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center jamb-o-tron-nborder rounded">
+					</div>				
+				</div>		
+			</div>																			
+		</div>	
+
+		<!-- BODY END -->
+
+		<!-- FOOTER -->
+
+		<div class = "container">
+			<footer = class="secondary text-center top-space">&#169 Kevin Miles 2020</footer>
+		</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,75 @@
+a
+{
+	display: inline;
+	color:orange
+}
+
+label
+{
+	font-family: 'Quicksand', sans-serif;
+	color:white;
+}
+
+h4
+{
+	font-family: 'Carter One', cursive;
+	color:white;
+}
+
+h5
+{
+	font-family: 'Amatic SC';
+	color:white;
+}
+
+html,
+body,
+.view 
+{
+	height: 100%;
+}
+
+.view 
+{
+	 background: url("/Assets/backgroundImgXL.jpg")no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: auto;
+	background-color:black;
+}
+
+.jumbotron
+{
+	background-color: #333;
+	padding: .5%;
+	color: white;
+}
+
+.jamb-o-tron
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	padding: .5%;	
+	margin: 10px;		
+}
+
+.jamb-o-tron-nborder
+{
+	background-color: transparent;
+	border-style: solid;
+	border-width: 0px;
+	border-color: white;
+	padding: .5%;	
+	margin: 10px;		
+}
+
+h5
+{
+	font-family: 'Amatic SC';
+	color:white;
+	font-size: 25px;
+}
