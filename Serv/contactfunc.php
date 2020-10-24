@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $message_body .=  "$key: $value\n";
       }
       
-      $to = 'kevin.junas@davinci.edu.ar';
+      $to = 'kev-miles@hotmail.com';
       $headers = "From: ".$email;
       if (mail($to, $mailsubject, $message, $headers)){
           $success = "Message sent, thank you for contacting us!";
