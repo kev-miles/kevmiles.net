@@ -196,7 +196,11 @@
 		<!-- FOOTER -->
 
 		<div class = "container">
-			<footer = class="secondary text-center top-space">&#169 Kevin Miles 2021</footer>
+			<footer = class="secondary text-center top-space">&#169 Kevin Miles
+				<script>
+					document.write(new Date().getFullYear())
+				</script>
+			</footer>
 		</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -210,11 +214,11 @@
 	<script>
 		  // Regular map
 		  function regular_map() {
-		      var var_location = new google.maps.LatLng(53.79922977617451, -1.546907405307769);
+		      var var_location = new google.maps.LatLng(53.993178, -1.537608);
 
 		      var var_mapoptions = {
 		          center: var_location,
-		          zoom: 15
+		          zoom: 10
 		      };
 
 		      var var_map = new google.maps.Map(document.getElementById("map-container"),
