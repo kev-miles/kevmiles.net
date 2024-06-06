@@ -115,8 +115,8 @@
 									<div>
 										<aadress style="color:white">On The Web</aadress>
 									</div> 
-									<a href="https://www.linkedin.com/in/kevin-miles-junas-6341b9b7/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>
-									<a href="https://twitter.com/_KevMiles"><img src="/Assets/Logos/twitter.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
+									<a href="https://www.linkedin.com/in/kevmiles/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>
+									<a href="https://x.com/_1Kevo_"><img src="/Assets/Logos/twitter.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
 									<a href="https://kmiles.newgrounds.com/"><img src="/Assets/Logos/newgrounds.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>									
 								</div>	
 							</div>
