@@ -11,9 +11,9 @@
 
 		<!-- CSS -->
 		
-		<link rel="stylesheet" type="text/css" href="/CSS/main.css">
+		<link rel="stylesheet" type="text/css" href="CSS/main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="/CSS/modifiers.css">
+		<link rel="stylesheet" type="text/css" href="CSS/modifiers.css">
 
 		<!-- FONTS -->
 
@@ -61,13 +61,15 @@
 						          Projects
 						        </a>
 						 			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						 			<a class="dropdown-item" href="/ufc4.html">UFC 4</a>  
-						    		<a class="dropdown-item" href="/elementspace.html">Element Space</a>
-						    		<a class="dropdown-item" href="/keendreams.html">Keen Dreams</a>
-						    		<div class="dropdown-divider"></div>
-						    		<a class="dropdown-item" href="/mobile&web.html">Mobile & Web</a>
-						 			<div class="dropdown-divider"></div>
-						    		<a class="dropdown-item" href="/jamgames.html">Jam Games</a>
+										<a class="dropdown-item" href="/helldivers.html">Helldivers 2</a>
+										<a class="dropdown-item" href="/sniperelite.html">Sniper Elite Resistance</a>
+										<a class="dropdown-item" href="/ufc4.html">UFC 4</a>
+										<a class="dropdown-item" href="/keendreams.html">Keen Dreams</a>
+										<a class="dropdown-item" href="/elementspace.html">Element Space</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="/mobile&web.html">Mobile & Web</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="/jamgames.html">Jam Games</a>
 						 			</div>
 						      	</li>
 						    	<li class="nav-item">
@@ -116,7 +118,7 @@
 										<aadress style="color:white">On The Web</aadress>
 									</div> 
 									<a href="https://www.linkedin.com/in/kevmiles/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>
-									<a href="https://x.com/_1Kevo_"><img src="/Assets/Logos/twitter.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
+									<a href="https://x.com/_kevmiles"><img src="/Assets/Logos/x-logo-white.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
 									<a href="https://kmiles.newgrounds.com/"><img src="/Assets/Logos/newgrounds.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>									
 								</div>	
 							</div>

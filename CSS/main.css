@@ -122,6 +122,34 @@ html, body
 	clear: both;
 }
 
+.text-columns {
+	column-count: 2;
+	column-gap: 3rem;
+}
+
+.text-columns p {
+	break-inside: avoid;
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+
+.text-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.text-grid p {
+	text-align: justify;
+	padding: 0.25rem;
+	margin-bottom: 0.75rem; 
+}
+
+.d-md-none p {
+    padding: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
 .custom-navbar-space
 {
 	font-stretch: 60px;
