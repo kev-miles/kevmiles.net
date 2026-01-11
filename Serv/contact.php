@@ -11,9 +11,9 @@
 
 		<!-- CSS -->
 		
-		<link rel="stylesheet" type="text/css" href="CSS/main.css">
+		<link rel="stylesheet" type="text/css" href="/CSS/main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="CSS/modifiers.css">
+		<link rel="stylesheet" type="text/css" href="/CSS/modifiers.css">
 
 		<!-- FONTS -->
 
@@ -98,35 +98,20 @@
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
 
 						<!-- LOCATION & SOCIAL NETWORKS -->
-						<div class = "container d-none d-md-block">	
+						<!--<div class = "container d-none d-md-block">	
 							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-								<!--Google map-->
 									<label style="color:white">Where in the world...</label>
 									<div id="map-container" class="rounded top-space z-depth-1-half map-container mb-5" style="height: 300px">
 									</div>							
 							</div>
-						</div>				 
+						</div>!-->			 
 					
 
-						<!-- SOCIAL MEDIA -->
-
-						<!-- DESKTOP / TABLET -->
-						<div class = "container d-none d-md-block">	
-							<div class="row no-gutters justify-content-center jumbotron-secondary">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-									<div>
-										<aadress style="color:white">On The Web</aadress>
-									</div> 
-									<a href="https://www.linkedin.com/in/kevmiles/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>
-									<a href="https://x.com/_kevmiles"><img src="/Assets/Logos/x-logo-white.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
-									<a href="https://kmiles.newgrounds.com/"><img src="/Assets/Logos/newgrounds.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>									
-								</div>	
-							</div>
-						</div>						
+						<!-- SOCIAL MEDIA -->						
 					</div>
 
 					<!-- CONTACT FORM -->
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+					<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
 						<form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
 							<div class="row no-gutters justify-content-center jumbotron-secondary">						
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center form-group">
@@ -175,15 +160,29 @@
 
 							<!-- SOCIAL MEDIA -->
 
+						<!-- DESKTOP / TABLET -->
+						<div class = "container d-none d-md-block">	
+							<div class="row no-gutters justify-content-center jumbotron-secondary">
+								<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
+									<div>
+										<aadress style="color:white">Or find me on the web</aadress>
+									</div> 
+									<a href="https://www.linkedin.com/in/kevmiles/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>
+									<a href="https://x.com/_kevmiles"><img src="/Assets/Logos/x-logo-white.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%">
+									<a href="https://kmiles.newgrounds.com/"><img src="/Assets/Logos/newgrounds.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 8%"></a>									
+								</div>	
+							</div>
+						</div>
+
 							<!-- MOBILE -->
 						<div class = "container d-md-none">	
 							<div class="row justify-content-center jumbotron-secondary">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 									<div>
-										<aadress style="color:white">On The Web</aadress>
+										<aadress style="color:white">Or find me on the web</aadress>
 									</div>
 									<a href="https://www.linkedin.com/in/kevmiles/"><img src="/Assets/Logos/linkedin.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 20%"></a>
-									<a href="https://x.com/_1Kevo_"><img src="/Assets/Logos/twitter.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 20%"></a>
+									<a href="https://x.com/_kevmiles"><img src="/Assets/Logos/x-logo-white.png"  class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 20%"></a>
 									<a href="https://kmiles.newgrounds.com/"><img src="/Assets/Logos/newgrounds.png" class="img-fluid rounded-circle shadow text-center" alt="Code" style="width: 20%"></a>	
 								</div>	
 							</div>
@@ -198,7 +197,7 @@
 		<!-- FOOTER -->
 
 		<div class = "container">
-			<footer = class="secondary text-center top-space">&#169 Kevin Miles
+			<footer class="secondary text-center top-space">&#169 Kevin Miles
 				<script>
 					document.write(new Date().getFullYear())
 				</script>
@@ -213,29 +212,31 @@
 	
 	<!-- Google Maps settings -->
 
-	<script>
-		  // Regular map
-		  function regular_map() {
-		      var var_location = new google.maps.LatLng(53.993178, -1.537608);
+	<!--<script>
+		function regular_map() {
+			const location = { lat: 53.993178, lng: -1.537608 };
 
-		      var var_mapoptions = {
-		          center: var_location,
-		          zoom: 10
-		      };
+			const map = new google.maps.Map(
+				document.getElementById("map-container"),
+				{
+				zoom: 10,
+				center: location,
+				}
+			);
 
-		      var var_map = new google.maps.Map(document.getElementById("map-container"),
-		          var_mapoptions);
-
-		      var var_marker = new google.maps.Marker({
-		          position: var_location,
-		          map: var_map,
-		          title: "Location"
-		      });
-		  }
-
-		   // Initialize maps
-	 	google.maps.event.addDomListener(window, 'load', regular_map);
-	</script>  
+			new google.maps.Marker({
+				position: location,
+				map,
+				title: "Location",
+			});
+		}
+	</script>
+	
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=regular_map"
+		async
+		defer>
+	</script>!-->
 
 	</body>
 
